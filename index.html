@@ -2,17 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>The Gallery</title>
+    <style>
+        body {
+            background-color: #000000;
+            display: flex;
+            justify-content: center;
+            color: lightgrey;
+            font-family: "Calibri Light",serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: #444444;
+            box-shadow: 0 0 20px 10px #FFFFFF;
+            width: 60vw;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .row {
+            border: 1px solid red;
+        }
+
+    </style>
 </head>
 <body>
-<img src="./Images/IMG01.png">
-<img src="./Images/IMG02.png">
-<img src="./Images/IMG03.png">
-<img src="./Images/IMG04.png">
-<img src="./Images/IMG05.png">
-<img src="./Images/IMG06.png">
-<img src="./Images/IMG07.png">
-<img src="./Images/IMG08.png">
-<img src="./Images/IMG09.png">
+    <div class="container">
+        <div class="row">
+            <h1>Gallery</h1>
+        </div>
+        <div class="row">
+            <div class="image"><img src="./Images/IMG01.png"></div>
+            <div class="image"><img src="./Images/IMG02.png"></div>
+            <div class="image"><img src="./Images/IMG03.png"></div>
+        </div>
+        <div class="row">
+            <div class="image"><img src="./Images/IMG04.png"></div>
+            <div class="image"><img src="./Images/IMG05.png"></div>
+            <div class="image"><img src="./Images/IMG06.png"></div>
+        </div>
+        <div class="row">
+            <div class="image"><img src="./Images/IMG07.png"></div>
+            <div class="image"><img src="./Images/IMG08.png"></div>
+            <div class="image"><img src="./Images/IMG09.png"></div>
+        </div>
+    </div>
 </body>
 </html>
