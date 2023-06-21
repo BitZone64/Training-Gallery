@@ -41,14 +41,16 @@
 
         .image img {
             flex-shrink: 1;
+            filter: brightness(0.75);
             min-width: 100%;
             min-height: 100%;
+            transition: 0.3s ease-in-out;
         }
 
         .image img:hover {
             -webkit-filter: brightness(.5);
-            filter: brightness(.5);
-            transition: 0.2s;
+            filter: brightness(1);
+            transform: scale(1.1);
         }
 
     </style>
