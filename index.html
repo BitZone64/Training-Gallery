@@ -3,61 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>The Gallery</title>
-    <style>
-        body {
-            background-color: #000000;
-            display: flex;
-            justify-content: center;
-            color: lightgrey;
-            font-family: "Calibri Light",serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            background-color: #444444;
-            box-shadow: 0 0 20px 10px #FFFFFF;
-            width: 60vw;
-            display: flex;
-            justify-content: flex-start;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        .row {
-            display: flex;
-            justify-content: center;
-        }
-
-        .image {
-            width: 30%;
-            max-height: 250px;
-            overflow: hidden;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 1em;
-        }
-
-        .image img {
-            flex-shrink: 1;
-            min-width: 100%;
-            min-height: 100%;
-        }
-
-        .image img:hover {
-            -webkit-filter: brightness(.5);
-            filter: brightness(.5);
-            transition: 0.2s;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div class="row">
             <h1>Gallery</h1>
         </div>
+        <div class="row">
+            <div class="image"><img src="./Images/IMG01.png" alt="Image"></div>
+            <div class="image"><img src="./Images/IMG02.png" alt="Image"></div>
+            <div class="image"><img src="./Images/IMG03.png" alt="Image"></div>
+        </div>
+        <div class="row">
+            <div class="image"><img src="./Images/IMG04.png" alt="Image"></div>
+            <div class="image"><img src="./Images/IMG05.png" alt="Image"></div>
+            <div class="image"><img src="./Images/IMG06.png" alt="Image"></div>
+        </div>
+        <div class="row">
+            <div class="image"><img src="./Images/IMG07.png" alt="Image"></div>
+            <div class="image"><img src="./Images/IMG08.png" alt="Image"></div>
+            <div class="image"><img src="./Images/IMG09.png" alt="Image"></div>
+        </div>
+
         <div class="row">
             <div class="image"><img src="./Images/IMG01.png" alt="Image"></div>
             <div class="image"><img src="./Images/IMG02.png" alt="Image"></div>
