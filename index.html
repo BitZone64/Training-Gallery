@@ -25,7 +25,24 @@
         }
 
         .row {
-            border: 1px solid red;
+            display: flex;
+            justify-content: center;
+        }
+
+        .image {
+            width: 30%;
+            max-height: 250px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 1em;
+        }
+
+        .image img {
+            flex-shrink: 0;
+            min-width: 100%;
+            min-height: 100%;
         }
 
     </style>
