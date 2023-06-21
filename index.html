@@ -25,7 +25,30 @@
         }
 
         .row {
-            border: 1px solid red;
+            display: flex;
+            justify-content: center;
+        }
+
+        .image {
+            width: 30%;
+            max-height: 250px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 1em;
+        }
+
+        .image img {
+            flex-shrink: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+        .image img:hover {
+            -webkit-filter: brightness(.5);
+            filter: brightness(.5);
+            transition: 0.2s;
         }
 
     </style>
@@ -36,19 +59,19 @@
             <h1>Gallery</h1>
         </div>
         <div class="row">
-            <div class="image"><img src="./Images/IMG01.png"></div>
-            <div class="image"><img src="./Images/IMG02.png"></div>
-            <div class="image"><img src="./Images/IMG03.png"></div>
+            <div class="image"><img src="./Images/IMG01.png" alt="Image"></div>
+            <div class="image"><img src="./Images/IMG02.png" alt="Image"></div>
+            <div class="image"><img src="./Images/IMG03.png" alt="Image"></div>
         </div>
         <div class="row">
-            <div class="image"><img src="./Images/IMG04.png"></div>
-            <div class="image"><img src="./Images/IMG05.png"></div>
-            <div class="image"><img src="./Images/IMG06.png"></div>
+            <div class="image"><img src="./Images/IMG04.png" alt="Image"></div>
+            <div class="image"><img src="./Images/IMG05.png" alt="Image"></div>
+            <div class="image"><img src="./Images/IMG06.png" alt="Image"></div>
         </div>
         <div class="row">
-            <div class="image"><img src="./Images/IMG07.png"></div>
-            <div class="image"><img src="./Images/IMG08.png"></div>
-            <div class="image"><img src="./Images/IMG09.png"></div>
+            <div class="image"><img src="./Images/IMG07.png" alt="Image"></div>
+            <div class="image"><img src="./Images/IMG08.png" alt="Image"></div>
+            <div class="image"><img src="./Images/IMG09.png" alt="Image"></div>
         </div>
     </div>
 </body>
