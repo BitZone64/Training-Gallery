@@ -3,61 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>The Gallery</title>
-    <style>
-        body {
-            background-color: #000000;
-            display: flex;
-            justify-content: center;
-            color: lightgrey;
-            font-family: "Calibri Light",serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            background-color: #444444;
-            box-shadow: 0 0 20px 10px #FFFFFF;
-            width: 60vw;
-            display: flex;
-            justify-content: flex-start;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        .row {
-            display: flex;
-            justify-content: center;
-        }
-
-        .image {
-            width: 30%;
-            max-height: 250px;
-            overflow: hidden;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 1em;
-            transition: 0.3s ease-in-out;
-        }
-
-        .image img {
-            flex-shrink: 1;
-            filter: brightness(0.75);
-            min-width: 100%;
-            min-height: 100%;
-            transition: 0.3s ease-in-out;
-        }
-
-        .image img:hover {
-            -webkit-filter: brightness(.5);
-            filter: brightness(1);
-            transform: scale(1.1);
-        }
-        .image:hover {
-            box-shadow: 0 0 20px 2px #aaaaaa;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
